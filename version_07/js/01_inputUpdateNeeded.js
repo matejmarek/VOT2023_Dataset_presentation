@@ -1,5 +1,5 @@
 //This is the file that needs to be updataded, when reused for new dataset year (there may be other things, but they are all HIGHLITEd)
-export const videoNameList = ["ants1", "ball3", "bird-15", "domino_damselfish", "f1", "fernando", "wiper", "wubble_bubble", "yoyo-7", "zebrafish1"]
+export const videoNameList = ["ants1", "bird-15", "domino_damselfish", "wiper", "wubble_bubble"]
 //export const videoNameList = [
     "agility",
     "animal",
