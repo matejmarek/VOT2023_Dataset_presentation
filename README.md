@@ -12,3 +12,5 @@ The site structure:
   * actionManagment.js
   * previewDevelopment.js
   * navigationList.js
+
+Created by Matej Marek & Simon Bravek & Tomas Pterka
