@@ -84,7 +84,7 @@
         display: none;
     }
     #icons {
-      transform: translateY(-20px) !important;
+      transform: translateY(-200px) !important;
     }
 }
 
