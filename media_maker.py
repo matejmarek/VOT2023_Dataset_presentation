@@ -54,9 +54,9 @@ def create_compress_videos(source_folder, output_folder, frame_rate, resolution,
     print('Done successfully!')
 
 if __name__ == '__main__':
-    source_folder = "/vot_init_dataset"  # VOT dataset path with structure: MAIN -> SEQUENCES_FOLDERS(name of video) -> COLOR -> IMGS_BY_NUMBER
-    output_folder = "/VOT_dataset_presentation-main/version_07/media"  # where u want the result videos with compression
-                                            # output structure: OUTPUT_FOLDER -> SEQUENCES_FOLDERS(name of video) -> VIDEO
+    source_folder = "/vot_init_dataset"  # VOT dataset path with structure: MAIN -> SEQUENCES_FOLDERS(name of video) -> COLOR -> IMGS_BY_NUMBER and OTHER_FILES
+    output_folder = "/VOT_dataset_presentation-main/version_07/media"  # where do you want the result videos with compression
+                                            # output structure: OUTPUT_FOLDER -> SEQUENCES_FOLDERS(name of video) -> VIDEO and OTHER_FILES
     frame_rate = 30  # fps, same for all videos
     resolution = '1280x720'
     compression_factor = 30
