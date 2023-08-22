@@ -17,6 +17,6 @@ The site structure:
   * settingsDevelopment.js
   * settingsVideoSizing.js
  
-  *  media
+   *  media
 
 Created by Matej Marek & Simon Bravek & Tomas Peterka
