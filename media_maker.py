@@ -4,7 +4,6 @@ import subprocess
 import os
 import cv2
 import shutil
-import time 
 
 def create_compress_videos(source_folder, output_folder, frame_rate, resolution, compression_factor, codec):
     list_vot_child = os.listdir(source_folder)
@@ -62,8 +61,4 @@ if __name__ == '__main__':
     compression_factor = 30
     codec = 'h264'
 
-    start_time = time.time()
     create_compress_videos(source_folder, output_folder, frame_rate, resolution, compression_factor, codec) 
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-    print(f"Elapsed time: {elapsed_time:.2f} seconds")
