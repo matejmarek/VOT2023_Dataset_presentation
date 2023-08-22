@@ -83,6 +83,9 @@
     .settings-container.settings {
         display: none;
     }
+    #icons {
+      transform: translateY(-20px) !important;
+    }
 }
 
 .video-sequence.settings  {
