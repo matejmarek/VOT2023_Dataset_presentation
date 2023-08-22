@@ -164,8 +164,8 @@ export const anchorList = [
 var year = new Date().getFullYear();
 //var year = "2023"
 // line 4
-const yearTitle = document.getElementById("year-title");
-yearTitle.textContent = year;
+const titleElement = document.getElementById("title");
+titleElement.textContent = `VOT${year} Challenge |Dataset`;
 // line 85
 const yearVot = document.getElementById("year-vot");
 yearVot.textContent = year;
