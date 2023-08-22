@@ -13,4 +13,4 @@ The site structure:
   * previewDevelopment.js
   * navigationList.js
 
-Created by Matej Marek & Simon Bravek & Tomas Pterka
+Created by Matej Marek & Simon Bravek & Tomas Peterka
