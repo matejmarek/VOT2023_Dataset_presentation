@@ -8,9 +8,15 @@ The site structure:
 * dataset.html
   * listStyles.css
   * sequenceRow.css
+ 
   * 01_inputUpdateNeeded.js
   * actionManagment.js
-  * previewDevelopment.js
   * navigationList.js
+  * previewDevelopment.js
+  * previewDevelopment.js
+  * settingsDevelopment.js
+  * settingsVideoSizing.js
+ 
+  *  media
 
 Created by Matej Marek & Simon Bravek & Tomas Peterka
