@@ -160,25 +160,18 @@ export const anchorList = [
     "Download the whole dataset in our Toolbox. Some sequences from last years might have full-length groundtruth mask and more information."
 ];
 
-//This will update the year automatically
-var year = new Date().getFullYear();
-//var year = "2023"
-// line 4
+//You will need to update just this variable
+var year = "2023"
 const titleElement = document.getElementById("title");
 titleElement.textContent = `VOT${year} Challenge |Dataset`;
-// line 85
 const yearVot = document.getElementById("year-vot");
 yearVot.textContent = year;
-// line 109
 const yearIccv = document.getElementById("year-iccv");
 yearIccv.textContent = year;
-// line 123
 const yearParagraph = document.getElementById("year-paragraph");
 yearParagraph.textContent = year;
-// line 132
 const yearDataset = document.getElementById("year-dataset");
 yearDataset.textContent = year;
-// line 150
 const yearLast = document.getElementById("zear-last");
 yearLast.textContent = year;
 
