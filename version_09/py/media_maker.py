@@ -1,6 +1,5 @@
-#Writes new javascript list of video names
-#Makes groundtruth mask for a first frame
-#Creates new folders in needed media structure to placed there videos and other files form source 
+#Writes a new javascript list of video names
+#Creates new folders in needed media structure to place there videos and other files from the source 
 #Creates compressed videos from images
 
 import subprocess
