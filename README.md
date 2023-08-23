@@ -14,7 +14,7 @@ The site structure:
     * 01_inputUpdateNeeded.js
     * settingsDevelopment.js
     * settingsVideoSizing.js
-       * These are made automatically by <i>media_maker.py</i>
+       * These are made automatically by <i>media_maker.py</i>:
        * newList.js
        *  media
 
