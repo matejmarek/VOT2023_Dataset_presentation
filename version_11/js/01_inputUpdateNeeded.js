@@ -15,7 +15,7 @@ const month = currentDate.getMonth();
 const april = `${dayOfMonth}/${month}`;
 
 if (april === '1/3') {
-    year = '4356';
+    year = ' 1969';
 }
 const titleElement = document.getElementById("title");
 titleElement.textContent = `VOT${year} Challenge |Dataset`;
