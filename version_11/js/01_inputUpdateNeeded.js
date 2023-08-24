@@ -14,8 +14,7 @@ const dayOfMonth = currentDate.getDate();
 const month = currentDate.getMonth();
 const april = `${dayOfMonth}/${month}`;
 
-//if (april === '1/3') {
-if (true) {
+if (april === '1/3') {
     year = '4356';
 }
 const titleElement = document.getElementById("title");
