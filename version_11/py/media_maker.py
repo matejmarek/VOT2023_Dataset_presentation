@@ -9,7 +9,7 @@ import os
 import cv2
 import shutil
 import json
-import numpy as np
+import numpy
 
 def write_new_list(source_folder, output_list_folder):
 
@@ -29,7 +29,7 @@ def make_mask(source_folder):
         items_in_directory = os.listdir(color_path)
         image_path = os.path.join(color_path, items_in_directory[0])
         image = cv2.imread(image_path)
-        mask = np.zeros_like(image, dtype=np.uint8)
+        mask = numpy.zeros_like(image, dtype=numpy.uint8)
 
         with open(rect_path, "r") as gt_file:
             for line in gt_file:
