@@ -8,7 +8,17 @@ export const anchorList = [
     "Download the whole dataset in our Toolbox. Some sequences from last years might have full-length groundtruth mask and more information."
 ];
 
-var year = "2023"
+const currentDate = new Date();
+let year = currentDate.getFullYear
+const dayOfMonth = currentDate.getDate();
+const month = currentDate.getMonth();
+
+//const april = `${dayOfMonth}/${month}`;
+const april = '1/3'
+
+if (april == '1/3') {
+    let year = '4356';
+}
 const titleElement = document.getElementById("title");
 titleElement.textContent = `VOT${year} Challenge |Dataset`;
 
