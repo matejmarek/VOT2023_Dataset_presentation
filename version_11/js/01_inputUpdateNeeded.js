@@ -12,11 +12,10 @@ const currentDate = new Date();
 let year = currentDate.getFullYear();
 const dayOfMonth = currentDate.getDate();
 const month = currentDate.getMonth();
+const april = `${dayOfMonth}/${month}`;
 
-//const april = `${dayOfMonth}/${month}`;
-const april = '1/3'
-
-if (april === '1/3') {
+//if (april === '1/3') {
+if (true) {
     year = '4356';
 }
 const titleElement = document.getElementById("title");
