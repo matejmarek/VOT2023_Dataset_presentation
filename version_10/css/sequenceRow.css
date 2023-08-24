@@ -108,6 +108,13 @@
 
 @media (max-width: 767.5px) {
     #icons {
-      transform: translateY(-30px) !important;
+        transform: translateX(11px)
     }
-  }
+    #submenu {
+        transform: translateY(15px) 
+
+    }
+    #menu.nav.navbar-nav.nav-collapse {
+        transform: translateY(25px)
+    }     
+}
