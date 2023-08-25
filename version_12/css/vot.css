@@ -1,0 +1,294 @@
+
+a.navbar-brand img {
+    margin: 5px 20px;
+}
+
+#submenu a.navbar-brand {
+    font-weight: bold;
+    margin: 0px 38px;
+}
+
+#submenu .navbar-default {
+    background-color: #F0F0F0;
+    border: none;
+}
+
+#submenu .navbar {
+    margin-bottom: 0px;
+}
+
+#submenu .navbar-right {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body {
+    min-width: 350px;
+}
+
+#menu .navbar {
+    min-height: 90px;
+}
+
+#menu.navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 55px;
+}
+
+.navbar-default .navbar-nav > li.active > a {
+    color: white;
+    background-color: #428BCA;
+}
+
+.navbar-default .nav li a.selected,
+.navbar-default .nav li a:hover,
+.navbar-default .nav li.active a:hover {
+    color: white;
+    background-color: #2A6496;
+}
+
+#icons a {
+    font-size: 3em;
+    color: #cccccc;
+    margin-left: 20px;
+}
+
+#icons a:first {
+    margin-left: 0;
+}
+
+#icons a:hover {
+    color: #428BCA;
+}
+
+#icons {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    right: 30px;
+    top: 20px;
+}
+
+footer {
+    clear: both;
+    padding-top: 60px;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    color: #AAAAAA;
+}
+
+footer a {
+    color: #AAAAAA;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.hosted img {
+    margin-bottom: 10px;
+}
+
+.clearer {
+    clear: both;
+}
+
+.poweredby {
+    padding-bottom: 30px;
+}
+
+.screenshot img {
+    max-width: 700px;
+    width: 100%;
+    border: #cccccc 1px solid;
+    padding: 1px;
+}
+
+.spotlight,
+.screenshot {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.challengebutton,
+.hugebutton {
+    text-decoration: none;
+    padding: 20px;
+    border: 1px #DDD solid;
+    display: inline-block;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.challengebutton.open {
+    background: transparent url("../img/badge_open.png") no-repeat right top;
+}
+
+.challengebutton.deprecated {
+    background: transparent url("../img/badge_deprecated.png") no-repeat right top;
+}
+
+.challengebutton:hover,
+.hugebutton:hover {
+    background-color: #fafafa;
+}
+
+.hugebutton {
+    text-align: center;
+    padding: 40px 20px;
+    height: 200px;
+}
+
+.challengebutton {
+    height: 220px;
+}
+
+.challengebutton img.logo {
+    float: left;
+    margin-right: 15px;
+}
+
+a.challengebutton:hover,
+a.hugebutton:hover {
+    text-decoration: none;
+}
+
+.challengebutton p.description {
+    text-align: left;
+    color: #555555;
+}
+
+.hugeicon {
+    font-size: 40px;
+}
+
+.icon-left {
+    float: left !important;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.supporters {
+    text-align: center;
+}
+
+.supporters a {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.gallery {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.gallery img.sequence {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px #DDD solid;
+    border-radius: 3px;
+    margin: 10px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.gallery img.sequence:hover {
+    background-color: #fafafa;
+}
+
+.float-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.float-center {
+    display: block;
+    margin: 15px auto;
+}
+
+.frame {
+    border: #cccccc 1px solid;
+    padding: 1px;
+}
+
+ul.publications.embedded {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+ul.publications.embedded li {
+    padding: 20px;
+    border: 1px #DDD solid;
+    border-radius: 3px;
+    margin: 10px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+ul.publications.embedded li .title {
+    font-size: 130%;
+
+}
+
+ul.publications.embedded li .authors {
+    font-size: 110%;
+
+}
+
+ul.publications.embedded li .published {
+    font-size: 90%;
+    color: gray;
+}
+
+.bibtex {
+    padding: 10px;
+    font-size: 10px;
+    font-family: monospace;
+    white-space: pre;
+    color: #444444;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-image {
+    float: right;
+    padding-left: 10px;
+
+}
+
+.container img {
+    max-width: 100%;
+}
+
