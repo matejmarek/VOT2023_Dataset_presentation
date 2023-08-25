@@ -1,1 +1,0 @@
-export const videoNameList = ["ants1", "bird-15", "domino_damselfish", "wiper", "wubble_bubble"]
