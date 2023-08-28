@@ -17,5 +17,10 @@ The site structure:
        * These are made automatically by <i>media_maker.py</i>:
        * newList.js
        *  media
+  * Programs you will have in your sources: 
+  * highlight.css
+  * vot.css
+  * highlight.js
+  * uri.js
 
 Created by Matej Marek & Simon Bravek & Tomas Peterka
