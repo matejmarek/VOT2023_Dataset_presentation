@@ -17,13 +17,7 @@ yearVnumberOfSequencesot.textContent = nos;
 
 const currentDate = new Date();
 let year = currentDate.getFullYear();
-
-const dayOfMonth = currentDate.getDate();
-const month = currentDate.getMonth();
-const april = `${dayOfMonth}/${month}`;
-if (april === '1/3') {
-    year = ' 1969';
-}
+//let year = '2023'
 
 const titleElement = document.getElementById("title");
 titleElement.textContent = `VOT${year} Challenge |Dataset`;
