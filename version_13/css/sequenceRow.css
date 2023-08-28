@@ -77,7 +77,7 @@
   
     /* This is the important part */
     width: min(700px, 95vw, 110vh);
-    height: min(700px, 95vh, 140vw);
+    height: min(800px, 95vh, 140vw);
 }
 @media only screen and (max-width: 767px) and (min-resolution: 400dpi) {
     .settings-container.settings {
