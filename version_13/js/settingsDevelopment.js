@@ -45,7 +45,7 @@ export function createSettingsElement(i) {
     const showGrandthruthButton = createElementNS("http://www.w3.org/1999/xhtml", "button");
     currentClass = "show-grandthruth settings";
     showGrandthruthButton.setAttribute("class", currentClass);
-    showGrandthruthButton.textContent = "Show grandthruth for firs frame";
+    showGrandthruthButton.textContent = "Show grandthruth for first frame";
     showGrandthruthButton.addEventListener("click", () => {
         videoSequenceSettings.currentTime = 0;
         videoSequenceSettings.pause();
