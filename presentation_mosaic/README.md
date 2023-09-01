@@ -1,4 +1,4 @@
- # mosaic_presentation 
+ # presentation_mosaic
 
 This is a program to make a video mosaic out of images for VOT presentation.
 
