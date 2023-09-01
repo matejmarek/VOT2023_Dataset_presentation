@@ -63,6 +63,7 @@ def make_mosaic_video(output_folder, frame_rate):
         for img_path in list_num_paths:
             frame = cv2.imread(img_path)
             video_property.write(frame)
+        os.remove(mosaic_frames_folder)
         
 if __name__ == '__main__':
     source_folder = "C:/Users/machm/vot23-init-dataset"
@@ -72,7 +73,7 @@ if __name__ == '__main__':
     frame_rate = 30
     num_row = 12
     num_col = 12
-
+    
     create_folders(output_folder)
     make_mosaic_dataset(source_folder, desired_width, desired_height)
     make_mosaic_video(output_folder, frame_rate)
