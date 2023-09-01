@@ -2,7 +2,7 @@
 import {videoNameList, videoAspectsList} from "./newList.js"
 
 export const anchorList = [
-    "Size: height:width pixels<br>Lenth: lenth frames (at 30 fps)",
+    "Size: height:width pixels<br>Length: lenth frames (at 30 fps)",
     "Downloads:",
     "video.mp4", 
     //"frame sequence",
