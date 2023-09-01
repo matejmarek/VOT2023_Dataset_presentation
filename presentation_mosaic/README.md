@@ -1,6 +1,7 @@
  # presentation_mosaic
 
-This is a program to make a video mosaic out of images for VOT presentation.
+This is a program to make a video mosaic out of images for a VOT presentation.
+The parameters will be: 1920:1080 and frame rate: 30, but you can easily change them in the programe.
 
 ## Preparations
 
