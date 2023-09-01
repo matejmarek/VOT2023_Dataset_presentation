@@ -1,0 +1,2 @@
+export const videoNameList = ["marathon6", "matrix", "monkey", "monkey-9", "monkey_3", "skiing", "train-7", "transparent_fish", "uav1", "umbrella-19", "zebra-16", "zebrafish1"]
+export const videoAspectsList = [["marathon6", 540, 960, 101], ["matrix", 336, 800, 100], ["monkey", 540, 960, 101], ["monkey-9", 360, 480, 475], ["monkey_3", 360, 640, 1261], ["skiing", 720, 1280, 3057], ["train-7", 676, 1280, 1425], ["transparent_fish", 540, 960, 500], ["uav1", 480, 720, 3469], ["umbrella-19", 720, 1280, 807], ["zebra-16", 720, 1280, 1282], ["zebrafish1", 1080, 1920, 400]]

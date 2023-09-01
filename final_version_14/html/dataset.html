@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    <head>
+        <title id = "title">VOT Challenge |Dataset</title> <!-- HIGHLIGHT update edit-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--HIGHLIGHT: superimportant, otherwise the phone mode doesnt work, ad it on all of your pages-->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SFJWNZ5TL"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-SFJWNZ5TLJ');
+        </script>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="../css/vot.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="../css/highlight.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" media="screen">
+        <link rel="stylesheet" href="../css/sequenceRow.css"> <!--HIGHLIGHT: Simon's INJECTION-->
+        <link rel="stylesheet" href="../css/listStyle.css"> <!--HIGHLIGHT: Tomas's INJECTION-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script type="text/javascript" src="../js/highlight.js"></script>
+        <script type="text/javascript" src="../js/uri.js"></script>
+        <script type="text/javascript">
+            hljs.initHighlightingOnLoad();
+            $(function() {
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#edeff5",
+                            "text": "#838391"
+                        },
+                        "button": {
+                            "background": "#4b81e8"
+                        }
+                    }
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="navbar navbar-default navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/">
+                            <img src="../img/logo_website.png" alt="VOT challenge">
+                        </a>
+                    </div>
+                    <ul class="nav navbar-nav nav-collapse" id="menu">
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="../challenges.html">Challenges</a>
+                        </li>
+                        <li>
+                            <a href="../howto/">Support</a>
+                        </li>
+                        <li>
+                            <a href="../publications.html">Publications</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-text navbar-right" id="icons">
+                        <a class="navbar-github" href="https://github.com/votchallenge" title="Github project">
+                            <i class="fa fa-github"></i>
+                        </a>
+                        <a class="navbar-twitter" href="https://twitter.com/votchallenge" title="Twitter feed">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="submenu">
+                    <div class="center_wrapper">
+                        <div class="navbar navbar-default navbar-static-top" role="navigation">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="../vot2023/">VOT<span id="year-vot"></span></a> <!-- HIGHLIGHT update edit-->
+                                </div>
+                                <ul class="nav navbar-nav nav-collapse">
+                                    <li>
+                                        <a href="./index.html">Home</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="./dataset.html">Dataset</a>
+                                    </li>
+                                    <li>
+                                        <a href="./vot2023/results.html">Results</a>
+                                    </li>
+                                    <li>
+                                        <a href="./trackers.html">Trackers</a>
+                                    </li>
+                                    <li>
+                                        <a href="./vot2023/program.html">Program</a>
+                                    </li>
+                                    <li>
+                                        <a href="./people.html">People</a>
+                                    </li>
+                                </ul>
+                                <div class="navbar-text navbar-right">
+                                    <a class="navbar-conjunction" href="http://iccv2023.thecvf.com/">ICCV<span id="year-iccv"></span>, Paris, France</a> <!-- HIGHLIGHT update edit-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="left" id="main">
+                <div id="main_content">
+                    <h2 id="datasets">VOT<span id="year-dataset"></span> dataset - gallery with preview</h2> <!-- HIGHLIGHT update edit-->
+                    <p>The full VOT<span id="year-paragraph"></span> dataset - <span id="number-of-sequences"></span> sequences. <span class="collapsible" id="listshow">Click to list.</span> Download via <a href="https://github.com/votchallenge">VOT toolkit</a></p> <!-- HIGHLIGHT update edit-->
+                    <div class="collapsible">
+                        <div class="content">
+                          <ul class="navigator"></ul>
+                        </div>
+                    </div>
+                    <p>Hover over image to see the video, click on button to see sequence Downloads.</p>
+                    <div class="video-body"></div> <!-- HIGHLIGHT: videos are dynamically added here by previewDevelopment -->
+                </div>
+            </div>
+            <div class="clearer"></div>
+        </div>
+
+        <footer>
+            <div class="hosted">
+                <a href="https://www.arnes.si/en/">
+                    <img src="../img/org/logo_arnes.png" alt="ARNES">
+                </a>
+                <div>
+                    This subpage was created by <i>Simon Bravek</i> & <i>Matej Marek</i> & <i>Tomas Peterka</i>. <!-- HIGHLIGHT: this message is to your discretion -->
+                    <br>
+                    The website of the VOT challenges is hosted on the servers of the <a href="https://www.arnes.si/en/">Academic and Research Network of Slovenia (ARNES)</a>
+                </div>
+            </div>
+            <div class="poweredby">VOT Challenge. &copy;2013-<span id="zear-last"></span>. All rights reserved.</div> <!-- HIGHLIGHT update edit-->
+        </footer>
+
+        <!-- HIGHLIGHT: Our JS injection -->
+        <script src="../js/actionManagment.js" type='module'></script>
+        <script src="../js/previewDevelopment.js" type = 'module'></script>  
+        <script src="../js/navigationList.js" type="module"></script>
+
+        <script src="../js/01_inputUpdate.js" type='module'></script>
+        <script src="../js/elementFunctions.js" type='module'></script>
+        <script src="../js/managePlayPause.js" type='module'></script>
+        <script src="../js/settingsDevelopment.js" type = 'module'></script>  
+        <script src="../js/settingsVideoSizing.js" type="module"></script>
+        <!--  -->
+    </body>
+</html>

@@ -1,0 +1,61 @@
+a {
+  text-decoration:none !important;
+}
+a:visited {
+  color: #336699;
+}
+
+.list {
+  cursor: pointer;
+}
+
+.navigator {
+  columns: 5;
+} 
+@media (max-width: 1000px) {
+  .navigator {
+    columns: 3;
+  }
+}
+@media (max-width: 765px) {
+  .navigator {
+    columns: 2;
+  }
+}
+@media (max-width: 350px) {
+  .navigator {
+    columns: 1;
+  }
+}
+
+.hovering {
+  margin-left: 7px;
+  visibility: hidden;
+  cursor: pointer;
+}
+li:hover .hovering {
+    visibility: visible;
+}
+.hovering:hover .hoverElement {
+  fill: #003366;
+}
+.hoverElement {
+  height: 15px;
+  width: auto;
+  fill: #336699;
+}
+
+
+#listshow{
+  cursor: pointer;
+}
+
+.collapsible {
+  margin: 10px;
+  color: #336699;
+}
+
+.content {
+display: none;
+padding: 10px;
+}
